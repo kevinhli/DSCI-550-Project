@@ -22,18 +22,33 @@ Overall file structure:
 
 DSCI 550 Project/
 ├── analysis/
+
 │   ├── exploratory_analysis.py  # EDA functions
+
 │   ├── main.py                  # Main pipeline execution
+
 │   ├── predictive_modeling.py   # Predictive model training
+
 │   └── visualization.py         # Visualization scripts
+
 ├── pre-processing/
+
 │   ├── cleaning.py              # Data cleaning
+
 │   └── retrieval.py             # API data retrieval
+
 ├── results/
+
 │   ├── charts/                  # Bar charts, time-series plots
+
 │   └── heatmaps/                # Heatmap visualizations
+
 |   └── modeling /               # Counfusion Matrix output
+
 ├── requirements.txt             # Python dependencies
+
 └── README.md                    # Documentation
+
 └── violation codes.csv          # reference codes for description of parking violations
+
 └── Example Data.csv             # Small csv file to show how data is formatted in API
