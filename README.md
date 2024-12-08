@@ -24,25 +24,25 @@ DSCI 550 Project
 
 analysis/
 
-    - exploratory_analysis.py # EDA functions
+    - exploratory_analysis.py # Exploratory Analysis script
     
-    - main.py                  # Main pipeline execution
+    - main.py                  # Execution file
     
-    - predictive_modeling.py   # Predictive model training
+    - predictive_modeling.py   # Predictive model - Confusion matrix
     
-    - visualization.py         # Visualization scripts
+    - visualization.py         # Heatmap script
 
 pre-processing/
 
-    - cleaning.py              # Data cleaning
+    - cleaning.py              # Data cleaning script
     
-    - retrieval.py             # API data retrieval
+    - retrieval.py             # API data retrieval script
 
 results/
 
-    - charts/                  # Bar charts, time-series plots
+    - charts/                  # Bar charts, time-series plots outputs
     
-    - heatmaps/                # Heatmap visualizations
+    - heatmaps/                # Heatmap output
     
     - modeling /               # Counfusion Matrix output
 
